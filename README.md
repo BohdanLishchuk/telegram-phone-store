@@ -38,11 +38,21 @@ $ npm install
 # development
 $ npm run start
 
+# install ngrok globally
+$ npm i ngrok -g
+
 # watch mode
 $ npm run start:dev
 
+# for local testing run ngrok
+$ ngrok http 3000
+
+# test bot by link @test_phone_store1_bot
+
 # production mode
 $ npm run start:prod
+
+
 ```
 
 ## Run tests
